@@ -61,3 +61,11 @@ documentType identifies the document type which belongs to the claim data
 ```
   "verified": true 
  ```
+# AML
+
+AML
+
+```
+  "aml": 50
+```
+
