@@ -23,7 +23,7 @@
             "@type": "xsd:integer"
           },
           "aml": {
-            "@id": "value",
+            "@id": "aml",
             "@type": "xsd:integer"
           }
         }
