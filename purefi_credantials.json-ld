@@ -23,7 +23,7 @@
             "@type": "xsd:integer"
           },
           "aml": {
-            "@id": "kyc-vocab:documentType",
+            "@id": "value",
             "@type": "xsd:integer"
           }
         }
