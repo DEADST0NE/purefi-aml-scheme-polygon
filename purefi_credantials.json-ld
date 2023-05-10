@@ -21,6 +21,10 @@
           "documentType": {
             "@id": "kyc-vocab:documentType",
             "@type": "xsd:integer"
+          },
+          "aml": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
           }
         }
       }
