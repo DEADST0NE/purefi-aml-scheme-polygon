@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "PurefiCredentialTest": {
-        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/purefi_credantials.json-ld#PurefiCredentialTest",
+        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/testt.json-id#PurefiCredentialTest",
         "@context": {
           "@version": 1.1,
           "@protected": true,
