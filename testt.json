@@ -117,19 +117,31 @@
           "type": "string",
           "format": "uri"
         },
-        "birthday": {
-          "type": "integer"
-        },
-        "documentType": {
-          "type": "integer"
-        },
-        "aml": {
-          "type": "integer"
-        },
         "firstName": {
-          "type": "string"
-        }
-      }
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "birthday": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "documentNo": {
+            "type": "string"
+          },
+          "documentType": {
+            "type": "string"
+          },
+          "documentIssuingDate": {
+            "type": "string"
+          },
+          "documentExpirationDate": {
+            "type": "string"
+          }
+       }
     }
   }
 }
