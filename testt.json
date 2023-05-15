@@ -106,10 +106,14 @@
       "type": "object",
       "required": [
         "id",
+        "firstName",
+        "lastName",
         "birthday",
+        "country",
+        "documentNo",
         "documentType",
-        "aml",
-        "firstName"
+        "documentIssuingDate",
+        "documentExpirationDate"
       ],
       "properties": {
         "id": {
@@ -118,30 +122,30 @@
           "format": "uri"
         },
         "firstName": {
-            "type": "string"
-          },
-          "lastName": {
-            "type": "string"
-          },
-          "birthday": {
-            "type": "string"
-          },
-          "country": {
-            "type": "string"
-          },
-          "documentNo": {
-            "type": "string"
-          },
-          "documentType": {
-            "type": "string"
-          },
-          "documentIssuingDate": {
-            "type": "string"
-          },
-          "documentExpirationDate": {
-            "type": "string"
-          }
-       }
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "birthday": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "documentNo": {
+          "type": "string"
+        },
+        "documentType": {
+          "type": "string"
+        },
+        "documentIssuingDate": {
+          "type": "string"
+        },
+        "documentExpirationDate": {
+          "type": "string"
+        }
+     }
     }
   }
 }
