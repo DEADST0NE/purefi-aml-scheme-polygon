@@ -25,10 +25,6 @@
           "aml": {
             "@id": "aml",
             "@type": "xsd:integer"
-          },
-          "firstName": {
-            "@id": "firstName",
-            "@type": "xsd:string"
           }
         }
       }
