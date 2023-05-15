@@ -119,9 +119,6 @@
         "birthday": {
           "type": "integer"
         },
-        "firstName":{
-          "type":"string"
-        },
         "documentType": {
           "type": "integer"
         },
