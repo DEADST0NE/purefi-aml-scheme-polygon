@@ -69,3 +69,68 @@ AML
   "aml": 50
 ```
 
+# First Name
+
+firstName
+
+```
+  "firstName": "Ruslan"
+```
+
+# LastName
+
+lastName
+
+```
+  "lastName": "Ruslan"
+```
+
+# BirthDate
+
+birthDate
+
+```
+  "birthDate": 6
+```
+
+# Country
+
+country
+
+```
+  "country": "RU"
+```
+
+# DocumentNo
+
+documentNo
+
+```
+  "documentNo": "0535028121"
+```
+
+# documentType
+
+documentType
+
+```
+  "documentType": "PASPORT"
+```
+
+
+# documentIssuingDate
+
+documentIssuingDate
+
+```
+  "documentIssuingDate": 1684151017106
+```
+
+
+# documentExpirationDate
+
+documentExpirationDate
+
+```
+  "documentExpirationDate": 1684151017106
+```
