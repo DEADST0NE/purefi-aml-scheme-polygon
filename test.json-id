@@ -1,1 +1,33 @@
-
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "PurefiCredential": {
+        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/purefi_credantials.json-ld#PurefiCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "birthday": {
+            "@id": "kyc-vocab:birthday",
+            "@type": "xsd:integer"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
+          },
+          "aml": {
+            "@id": "kyc-vocab:aml",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
