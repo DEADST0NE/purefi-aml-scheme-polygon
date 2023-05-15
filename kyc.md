@@ -1,56 +1,9 @@
-# age
-
-age represents person age as integer value
-
-```
-  "age": 18
-```
-
-# birthdayMonth
-
-birthdayMonth represents person age as integer value
-
-```
-  "birthdayMonth": 2
-```
-
-# birthdayYear
-
-birthdayYear represents person age as integer value
-
-```
-  "birthdayYear": 1990
-```
-
-# countryCode
-
-countryCode is numeric code (integer)
-
-```
-  "countryCode": 804
-```
-
-# verified
-
-verified means that identity passed KYC verification procedure (boolean)
-
-```
-  "verified": true 
- ```
-# AML
-
-AML
-
-```
-  "aml": 50
-```
-
 # First Name
 
 firstName
 
 ```
-  "firstName": "Ruslan"
+  "firstName": "TEST"
 ```
 
 # LastName
@@ -58,7 +11,7 @@ firstName
 lastName
 
 ```
-  "lastName": "Ruslan"
+  "lastName": "TEST"
 ```
 
 # BirthDate
@@ -66,7 +19,7 @@ lastName
 birthDate
 
 ```
-  "birthDate": 1684151017106
+  "birthDate": "2023-05-15T20:03:29.374Z"
 ```
 
 # Country
@@ -99,7 +52,7 @@ documentType
 documentIssuingDate
 
 ```
-  "documentIssuingDate": 1684151017106
+  "documentIssuingDate": "2023-05-15T20:03:29.374Z"
 ```
 
 
@@ -108,5 +61,5 @@ documentIssuingDate
 documentExpirationDate
 
 ```
-  "documentExpirationDate": 1684151017106
+  "documentExpirationDate": "2023-05-15T20:03:29.374Z"
 ```
