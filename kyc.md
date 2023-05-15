@@ -90,7 +90,7 @@ documentNo
 documentType
 
 ```
-  "documentType": "PASPORT"
+  "documentType": "PASSPORT"
 ```
 
 
