@@ -127,8 +127,7 @@
           "type": "integer"
         },
         "firstName": {
-          "@id": "kyc-vocab:firstName",
-          "@type": "xsd:string"
+          "type": "string"
         }
       }
     }
