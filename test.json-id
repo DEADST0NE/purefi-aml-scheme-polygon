@@ -15,19 +15,19 @@
           "kyc-vocab": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "birthday": {
-            "@id": "kyc-vocab:birthday",
+            "@id": "birthday",
             "@type": "xsd:integer"
           },
           "documentType": {
-            "@id": "kyc-vocab:documentType",
+            "@id": "documentType",
             "@type": "xsd:integer"
           },
           "aml": {
-            "@id": "kyc-vocab:aml",
+            "@id": "aml",
             "@type": "xsd:integer"
           },
           "firstName": {
-            "@id": "kyc-vocab:firstName",
+            "@id": "firstName",
             "@type": "xsd:string"
           }
         }
