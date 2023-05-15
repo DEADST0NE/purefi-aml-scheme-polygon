@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/test.json-id",
-      "jsonSchema": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/test.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/purefi_credantials.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/purefi_credentials.json"
     }
   },
   "required": [
