@@ -27,7 +27,6 @@
             "@type": "xsd:integer"
           },
           "firstName": {
-            "title": "First Name",
             "@id": "kyc-vocab:firstName",
             "@type": "xsd:string"
           }
