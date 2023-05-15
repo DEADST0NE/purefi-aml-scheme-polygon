@@ -27,7 +27,6 @@
             "@type": "xsd:integer"
           },
           "firstName": {
-            "@id": "test:firstName",
             "@type": "xsd:string"
           }
         }
