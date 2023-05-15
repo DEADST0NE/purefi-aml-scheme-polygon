@@ -14,20 +14,36 @@
           "type": "@type",
           "kyc-vocab": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "firstName": {
+            "@id": "kyc-vocab:firstName",
+            "@type": "xsd:string"
+          },
+          "lastName": {
+            "@id": "kyc-vocab:lastName",
+            "@type": "xsd:string"
+          },
           "birthday": {
             "@id": "kyc-vocab:birthday",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
+          },
+          "country": {
+            "@id": "kyc-vocab:country",
+            "@type": "xsd:string"
+          },
+          "documentNo": {
+            "@id": "kyc-vocab:documentNo",
+            "@type": "xsd:string"
           },
           "documentType": {
             "@id": "kyc-vocab:documentType",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           },
-          "aml": {
-            "@id": "kyc-vocab:aml",
-            "@type": "xsd:integer"
+          "documentIssuingDate": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:string"
           },
-          "firstName": {
-            "@id": "kyc-vocab:firstName",
+          "documentExpirationDate": {
+            "@id": "kyc-vocab:documentExpirationDate",
             "@type": "xsd:string"
           }
         }
