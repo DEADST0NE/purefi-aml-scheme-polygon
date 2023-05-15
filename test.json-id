@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "PurefiCredential": {
-        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/purefi_credantials.json-ld#PurefiCredential",
+        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/test.json-id#PurefiCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -25,6 +25,11 @@
           "aml": {
             "@id": "kyc-vocab:aml",
             "@type": "xsd:integer"
+          },
+          "firstName": {
+            "title": "First Name",
+            "@id": "kyc-vocab:firstName",
+            "@type": "xsd:string"
           }
         }
       }
