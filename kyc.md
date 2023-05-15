@@ -90,7 +90,7 @@ lastName
 birthDate
 
 ```
-  "birthDate": 6
+  "birthDate": 1684151017106
 ```
 
 # Country
