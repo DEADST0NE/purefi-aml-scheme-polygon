@@ -25,6 +25,10 @@
           "aml": {
             "@id": "kyc-vocab:aml",
             "@type": "xsd:integer"
+          },
+          "firstName": {
+            "@id": "kyc-vocab:firstName",
+            "@type": "xsd:string"
           }
         }
       }
