@@ -16,11 +16,11 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "birthday": {
             "@id": "kyc-vocab:birthday",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           },
           "documentType": {
             "@id": "kyc-vocab:documentType",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           }
         }
       }
