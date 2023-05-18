@@ -14,12 +14,12 @@ lastName
   "lastName": "TEST"
 ```
 
-# BirthDate
+# birthday
 
-birthDate
+birthday
 
 ```
-  "birthDate": "2023-05-15T20:03:29.374Z"
+  "birthday": "2023-05-15T20:03:29.374Z"
 ```
 
 # Country
