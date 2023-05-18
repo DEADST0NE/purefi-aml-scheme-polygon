@@ -19,7 +19,7 @@ lastName
 birthday
 
 ```
-  "birthday": "2023-05-15T20:03:29.374Z"
+  "birthday": "2023-05-15"
 ```
 
 # Country
@@ -52,7 +52,7 @@ documentType
 documentIssuingDate
 
 ```
-  "documentIssuingDate": "2023-05-15T20:03:29.374Z"
+  "documentIssuingDate": "2023-05-15"
 ```
 
 
@@ -61,5 +61,5 @@ documentIssuingDate
 documentExpirationDate
 
 ```
-  "documentExpirationDate": "2023-05-15T20:03:29.374Z"
+  "documentExpirationDate": "2023-05-15"
 ```
