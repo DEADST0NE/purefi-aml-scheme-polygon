@@ -116,10 +116,10 @@
           "format": "uri"
         },
         "birthday": {
-          "type": "integer"
+          "type": "string"
         },
         "documentType": {
-          "type": "integer"
+          "type": "string"
         }
       }
     }
