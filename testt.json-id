@@ -5,46 +5,22 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "PurefiCredentialKyc": {
-        "@id": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/testt.json-id#PurefiCredentialKyc",
+      "KYCAgeCredential": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld#KYCAgeCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "kyc-vocab": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/kyc.md#",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "firstName": {
-            "@id": "kyc-vocab:firstName",
-            "@type": "xsd:string"
-          },
-          "lastName": {
-            "@id": "kyc-vocab:lastName",
-            "@type": "xsd:string"
-          },
           "birthday": {
             "@id": "kyc-vocab:birthday",
-            "@type": "xsd:string"
-          },
-          "country": {
-            "@id": "kyc-vocab:country",
-            "@type": "xsd:string"
-          },
-          "documentNo": {
-            "@id": "kyc-vocab:documentNo",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           },
           "documentType": {
             "@id": "kyc-vocab:documentType",
-            "@type": "xsd:string"
-          },
-          "documentIssuingDate": {
-            "@id": "kyc-vocab:documentType",
-            "@type": "xsd:string"
-          },
-          "documentExpirationDate": {
-            "@id": "kyc-vocab:documentExpirationDate",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           }
         }
       }
