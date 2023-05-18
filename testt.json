@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/testt.json-id",
-      "jsonSchema": "https://raw.githubusercontent.com/DEADST0NE/purefi-aml-scheme-polygon/main/testt.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v4.json"
     }
   },
   "required": [
@@ -106,14 +106,8 @@
       "type": "object",
       "required": [
         "id",
-        "firstName",
-        "lastName",
         "birthday",
-        "country",
-        "documentNo",
-        "documentType",
-        "documentIssuingDate",
-        "documentExpirationDate"
+        "documentType"
       ],
       "properties": {
         "id": {
@@ -121,31 +115,13 @@
           "type": "string",
           "format": "uri"
         },
-        "firstName": {
-          "type": "string"
-        },
-        "lastName": {
-          "type": "string"
-        },
         "birthday": {
-          "type": "string"
-        },
-        "country": {
-          "type": "string"
-        },
-        "documentNo": {
-          "type": "string"
+          "type": "integer"
         },
         "documentType": {
-          "type": "string"
-        },
-        "documentIssuingDate": {
-          "type": "string"
-        },
-        "documentExpirationDate": {
-          "type": "string"
+          "type": "integer"
         }
-     }
+      }
     }
   }
 }
